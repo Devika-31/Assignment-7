@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Be Social</string>
+    <string name="welcome_">Welcome To the Social World!</string>
+    <string name="add_your">Add Your \n First Post</string>
+    <string name="enter_bio">Enter Bio</string>
+    <string name="enter_description">Enter Description</string>
+    <string name="save_details">Save Details</string>
+    <string name="bio">Bio</string>
+    <string name="description">Description</string>
+    <string name="select_your_avtar">Select Your Avtar</string>
+</resources>
