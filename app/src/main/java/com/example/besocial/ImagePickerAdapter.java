@@ -10,9 +10,9 @@ import androidx.recyclerview.widget.RecyclerView;
 
 public class ImagePickerAdapter extends RecyclerView.Adapter<ImagePickerAdapter.ImageViewHolder> {
     private int[] avtarIds;
-
+//interface
     public interface OnPostImageClickListener {
-         void onPostImageClick(int imageId, int position);
+        void onPostImageClick(int imageId, int position);
     }
 
     private OnPostImageClickListener onPostImageClickListener;

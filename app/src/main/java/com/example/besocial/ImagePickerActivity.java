@@ -10,6 +10,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 public class ImagePickerActivity extends AppCompatActivity {
     private RecyclerView rcvImages;
+
     private int avtarIds[] = {
             R.drawable.default_avtar,
             R.drawable.img_1,
@@ -37,14 +38,14 @@ public class ImagePickerActivity extends AppCompatActivity {
     private void inItUI() {
         rcvImages = findViewById(R.id.rcvImages);
         rcvImages.setLayoutManager(new GridLayoutManager(this, 3));
-imagePickerAdapter=new ImagePickerAdapter(avtarIds);
+        imagePickerAdapter = new ImagePickerAdapter(avtarIds);
         imagePickerAdapter.setOnPostImageClickListener(
                 new MysetOnImageCLickListener()
         );
-rcvImages.setAdapter(imagePickerAdapter);
+        rcvImages.setAdapter(imagePickerAdapter);
 
     }
-
+//listener for image click
     private class MysetOnImageCLickListener implements ImagePickerAdapter.OnPostImageClickListener {
         @Override
         public void onPostImageClick(int imageId, int position) {

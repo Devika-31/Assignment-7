@@ -8,4 +8,6 @@
     <string name="bio">Bio</string>
     <string name="description">Description</string>
     <string name="select_your_avtar">Select Your Avtar</string>
+    <string name="description_">Description</string>
+    <string name="bio_">Bio</string>
 </resources>

@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/app_icon_"
         android:supportsRtl="true"
         android:theme="@style/Theme.BeSocial">
+        <activity android:name=".PostDetailedActivity"/>
         <activity android:name=".AddPostActivity" android:theme="@style/customizedStyle"/>
         <activity android:name=".ImagePickerActivity" android:theme="@style/customizedStyle"/>
         <activity

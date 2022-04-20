@@ -2,12 +2,14 @@ package com.example.besocial;
 
 import java.io.Serializable;
 
+
+//Model class
+
 public class UserDetails implements Serializable {
+    public static final String KEY_USER_DETAILS="userdetails";
     private String Bio;
     private String Description;
     private int pickedImageid;
-
-
     public String getBio() {
         return Bio;
     }

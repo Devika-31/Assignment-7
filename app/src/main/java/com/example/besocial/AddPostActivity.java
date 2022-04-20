@@ -37,7 +37,7 @@ public class AddPostActivity extends AppCompatActivity {
         btnAddPost = findViewById(R.id.btnSaveDetails);
 
     }
-
+//add post button event
     private class BtnAddPostCLickListener implements View.OnClickListener {
         @Override
         public void onClick(View view) {
@@ -52,7 +52,7 @@ public class AddPostActivity extends AppCompatActivity {
 
         }
     }
-
+//add image button event
     private class BtnIvImagePickListener implements View.OnClickListener {
         @Override
         public void onClick(View view) {
